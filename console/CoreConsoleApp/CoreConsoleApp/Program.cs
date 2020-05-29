@@ -7,11 +7,10 @@ namespace CoreConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine(Div(123));
+            ArrayGame ag = new ArrayGame();
+            ag.CheckStringHash();
         }
 
-        static int Div(int num)
-        {
-            return num != 0 ? (num % 10 + Div(num / 10)) : 0;
-        }
+        static int Div(int num) => num != 0 ? (num % 10 + Div(num / 10)) : 0;
     }
 }

@@ -11,7 +11,7 @@ namespace StructSamples
     {
         struct Coordinate
         {
-            // Struct constructor
+            // Struct may contain constructor
             public Coordinate(int x, int y)
             {
                 X = x;

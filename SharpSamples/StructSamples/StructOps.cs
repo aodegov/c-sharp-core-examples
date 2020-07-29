@@ -39,7 +39,7 @@ namespace StructSamples
             Coordinate c;
             /*
              * You can't set value from one structure,
-             * when inside anoter structure
+             * when inside another structure
              * c.X = 5; - exception
              */
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SamplesProcessor;
+using System;
 
 namespace EntryPoint
 {
@@ -6,7 +7,8 @@ namespace EntryPoint
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SampleService ss = new SampleService();
+            ss.DoWork();
         }
     }
 }

@@ -19,7 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionarySamples", "Dictio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loops", "Loops", "{FD0FF431-ED7C-4FBA-B067-079AB6AA5A5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops.ConsoleApp", "Loops.ConsoleApp\Loops.ConsoleApp.csproj", "{4C3A49FD-6CD4-4081-9F27-91A16CE866B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops.ConsoleApp", "Loops.ConsoleApp\Loops.ConsoleApp.csproj", "{4C3A49FD-6CD4-4081-9F27-91A16CE866B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DateTime", "DateTime", "{135F1BCF-82BF-4ACA-8C33-B8F143D972F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeOps", "DateTimeOps\DateTimeOps.csproj", "{404EA1BE-B0E1-48E1-AEA0-3832B7DA915D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{4C3A49FD-6CD4-4081-9F27-91A16CE866B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C3A49FD-6CD4-4081-9F27-91A16CE866B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C3A49FD-6CD4-4081-9F27-91A16CE866B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404EA1BE-B0E1-48E1-AEA0-3832B7DA915D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404EA1BE-B0E1-48E1-AEA0-3832B7DA915D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404EA1BE-B0E1-48E1-AEA0-3832B7DA915D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404EA1BE-B0E1-48E1-AEA0-3832B7DA915D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,7 @@ Global
 		{68E480C9-3AB0-4432-9204-D1B022A45209} = {BCEAC1F6-EA30-4C7A-9D67-0433C1A7D880}
 		{53EA6BB4-68EE-4E19-8C68-DDA6DF640BB7} = {B29F74D5-696C-4D17-9E53-B4CDB1B03D75}
 		{4C3A49FD-6CD4-4081-9F27-91A16CE866B4} = {FD0FF431-ED7C-4FBA-B067-079AB6AA5A5C}
+		{404EA1BE-B0E1-48E1-AEA0-3832B7DA915D} = {135F1BCF-82BF-4ACA-8C33-B8F143D972F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0A23ABC-5B52-4503-B831-6254A550175E}

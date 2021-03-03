@@ -6,7 +6,8 @@ namespace DateTimeOps
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(DateTime.Now.ToString("c"));
+            Console.ReadKey();
         }
     }
 }
